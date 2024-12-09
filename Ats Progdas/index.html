@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Control Progdas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome Back <span class="auto"></span></h1> 
+        </div>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <div class="content">
+            <h2>Inventory Control</h2>
+            <h3>Current Inventory</h3>
+            <div class="form-group">
+                <label for="product-code" >Kode Produk:</label>
+                <input type="text" id="product-code" readonly placeholder="Code Akan Terisi Otomatis">
+                <label for="product-name">Nama Produk:</label>
+                <input type="text" id="product-name">
+            </div>
+            <div class="form-group">
+                <label for="price">Harga Produk:</label>
+                <input type="number" id="price" required>
+                <label for="product-image">Url Gambar:</label>
+                <input type="text" id="product-image" required>
+            </div>
+            <div class="form-group">
+                <label for="satuan">Satuan:</label>
+                <select name="" id="satuan">
+                    <option value="Gram (g)">Gram (g)</option>
+                    <option value="Kilogram (kg)">Kilogram (kg)</option>
+                    <option value="Ton (T)">Ton (T)</option>
+                    <option value="Miligram (mg)">Miligram (mg)</option>
+                </select>
+                <label for="kategori">Kategori:</label>
+                <select name="" id="kategori">
+                    <option value="Makanan dan Minuman">Makanan dan Minuman</option>
+                    <option value="Barang Elektronik">Barang Elektronik</option>
+                    <option value="Pakaian dan Aksesori">Pakaian dan Aksesori</option>
+                    <option value="Bahan Baku">Bahan Baku</option>
+                    <option value="Peralatan Industri">Peralatan Industri</option>
+                    <option value="Properti dan Real Estate">Properti dan Real Estate</option>
+                    <option value="Alat Berat">Alat Berat</option>
+                    <option value="Dan Lain Sebagainya">Dan Lain Sebagainya</option>
+                </select>
+            </div>
+            <div class="stok">
+                <label for="stok">Stok Produk:</label>
+                <input type="number" id="stok" required>
+            </div>
+            <div class="buttons">
+                <button class="add" id="add">Add</button>
+                <button class="clearall" id="clear-all">Clear Inventory</button>
+            </div>
+            <div id="tableview">
+                <table id="my-table">
+                    <thead class="head-table">
+                        <tr>
+                            <th>#</th>
+                            <th>Kode Produk</th>
+                            <th>Nama Produk</th>
+                            <th>Harga Produk</th>
+                            <th>Satuan Produk</th>
+                            <th>Kategori Produk</th>
+                            <th>Stok Produk</th>
+                            <th>Gambar Produk</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody class="body-tabel">
+                       <!-- anunya -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+</body>
+</html>

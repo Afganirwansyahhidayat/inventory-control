@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header span {
+    color: #dc3545;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.clearall {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+.clearall a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+.content {
+    background-color: white;
+    padding: 20px;
+    border: transparent;
+}
+.content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.content h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.form-group label {
+    flex: 1;
+    padding-left: 10px;
+}
+.form-group input {
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+    margin-right: 100px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+.form-group select {
+    flex: 2;
+    margin-right: 100px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+.form-group input:nth-child(2) {
+    float: right;
+}
+
+.stok label{
+    justify-content: start;
+    margin-bottom: 15px;
+  
+}
+.stok input {
+    display: f;
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-left: 69px;
+}
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.buttons .add {
+    background-color: #28a745;
+    color: white;
+}
+.buttons .reset {
+    background-color: #dc3545;
+    color: white;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: transparent;
+    margin-top: 20px;
+}
+table th, table td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+}
+.head-table {
+    background-color: #dee2e6;
+}
+
+#tableview {
+    width: 100%; /* Sesuaikan pembungkus tabel agar lebih lebar */
+    overflow-x: auto; /* Scroll horizontal jika konten lebih lebar */
+    display: block;
+}
+
+/* Media Query untuk layar dengan lebar maksimal 490px */
+@media screen and (max-width: 490px) {
+    body {
+        display: flex;
+        overflow: scroll;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0px;
+    }
+    .content {
+        padding: 0px;
+      
+    }
+
+    .header h1 {
+        font-size: 15px;
+    }
+
+    .clearall {
+        margin-left: 0;
+        width: 30%;
+        margin-bottom: 10px;
+        padding: 10px 0;
+    }
+
+    .content h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .content h3 {
+       text-align: center;
+       margin-right: 30px;
+        font-size: 18px;
+    }
+
+    .form-group {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .form-group label,
+    .form-group input,
+    .form-group select {
+        width: 60%;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .form-group select {
+    
+       margin-bottom: 10px;
+    }
+
+    .form-group input,
+    .form-group select {
+        margin-left: 0;
+    }
+
+    .stok {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stok input {
+        width: 20%;
+        margin-top: 5px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .buttons {
+        margin-left: 10px;
+        flex-direction: row;
+        align-items: left;
+    }
+
+    .buttons button {
+        width: 35%;
+        margin-top: 4px;
+        margin-bottom: 10px;
+    }
+    #tableview {
+        width: 100%; 
+        overflow-x: auto;
+    }
+
+    table {
+        width: 100%; 
+        border: 1px solid #ddd;
+      
+    }
+}
