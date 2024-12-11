@@ -7,6 +7,8 @@
 
 This web application is designed using front-end technologies such as HTML, CSS, and JavaScript to provide an engaging and interactive user experience. The main goal of this application is to simplify inventory data management, giving users the ability to update and manage stock items efficiently.
 
+**[Here For Demo](https://animated-petalite-bard.glitch.me/Inventory-Control/)**
+
 <h2>Project Description</h2>
 
 This project is a web-based Inventory Control application designed to manage product inventory in an interactive and efficient manner. The application allows users to perform essential inventory management tasks such as adding, editing, deleting, and clearing the entire inventory. Each product entry includes details such as an automatically generated product code, name, price, unit, category, stock, and image, all of which are dynamically displayed in a table. The application also features visual indicators, such as highlighting low stock levels in red, to help users manage their inventory more effectively.
@@ -20,3 +22,9 @@ This application was built using HTML, CSS, and JavaScript, as they provide the 
 Some challenges encountered during development included handling user input errors, maintaining synchronization between the displayed table and the data stored in the JavaScript array, and optimizing the logic for editing and deleting items. In the future, I plan to enhance the application by adding advanced features such as product search and filtering, integration with a database for persistent data storage, and user authentication to ensure data security. Additionally, I aim to include analytics features, such as visual graphs and inventory insights, to provide users with a better understanding of their inventory trends.
 
 This project demonstrates the core principles of web development and highlights my ability to build functional, user-friendly applications.
+
+<h1 align="center">⚡Features⚡</h1>
+ - Array (Saving Data When Input into an Array)
+ - Add Product (Adding Products to the Inventory List)\
+ - Clearall Inventory (Deleting All Products from the Inventory List)
+ 
