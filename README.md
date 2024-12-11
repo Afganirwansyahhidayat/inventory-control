@@ -23,8 +23,10 @@ Some challenges encountered during development included handling user input erro
 
 This project demonstrates the core principles of web development and highlights my ability to build functional, user-friendly applications.
 
-<h1 align="center">⚡Features⚡</h1>
+## ⚡Features⚡
  - Array (Saving Data When Input into an Array)
- - Add Product (Adding Products to the Inventory List)\
+ - Add Product (Adding Products to the Inventory List)
  - Clearall Inventory (Deleting All Products from the Inventory List)
+ - Edit Product (To Edit a Product)
+ - Delete Product (To Delete A Product)
  
