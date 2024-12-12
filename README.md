@@ -8,6 +8,7 @@
 This web application is designed using front-end technologies such as HTML, CSS, and JavaScript to provide an engaging and interactive user experience. The main goal of this application is to simplify inventory data management, giving users the ability to update and manage stock items efficiently.
 
 **[Here For Demo](https://global-carbonated-protest.glitch.me/Inventory-Control/)**
+ (Responsive Mobile and Desktop)
 
 <h2>Project Description</h2>
 
