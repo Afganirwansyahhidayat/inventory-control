@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/sponsors/Afganirwansyahhidayat" /> 
+<img align="right" src="https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge" /> 
 
 # INVENTORY CONTROL
 ![Inventory Control Page](https://github.com/Afganirwansyahhidayat/inventory-control/blob/main/Inventory-Control/Screenshot/Screenshot%202024-12-10%20064309.png?raw=true)
