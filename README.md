@@ -1,4 +1,4 @@
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Afganirwansyahhidayat" /> 
+<img align="right" src="https://github.com/sponsors/Afganirwansyahhidayat" /> 
 
 # INVENTORY CONTROL
 ![Inventory Control Page](https://github.com/Afganirwansyahhidayat/inventory-control/blob/main/Inventory-Control/Screenshot/Screenshot%202024-12-10%20064309.png?raw=true)
